@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Environment variables
+.env
+.env.local
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude 
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project specific
+*.log
+.cache/
+.pytest_cache/
+
+# Data files (if they contain sensitive info)
+# Uncomment if needed:
+# data/*.csv
+
+# Model files (if large)
+*.pkl
+*.h5
+*.pt
+*.pth
+
+# Outputs
+outputs/
+results/
+*.png
+*.jpg
+*.pdf
