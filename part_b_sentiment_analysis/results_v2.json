@@ -1,0 +1,72 @@
+[
+  {
+    "email_id":1,
+    "subject":"Unable to access shared mailbox",
+    "sentiment":"neutral",
+    "confidence":0.8,
+    "reasoning":"The customer's tone is polite and informative, with no clear emotional indicators of frustration, anger, or satisfaction. The word choice is straightforward, and the language used is neutral. The phrase 'Can you please check?' is a polite request, which suggests that the customer is seeking assistance rather than expressing dissatisfaction. There are no urgency markers, such as 'urgent' or 'immediately', which might indicate a stronger emotional tone. The context of the issue is a technical problem, but the customer's approach is matter-of-fact, without any negative or positive emotional undertones."
+  },
+  {
+    "email_id":2,
+    "subject":"Rules not working",
+    "sentiment":"negative",
+    "confidence":0.8,
+    "reasoning":"The customer states that a rule 'stopped working', which indicates a problem or issue. The tone is direct and to the point, without any aggressive language, but the word 'stopped working' implies a sense of frustration or disappointment. The phrase 'since yesterday' adds a sense of urgency, suggesting that the customer is expecting a timely resolution. There are no positive or appreciative words\/phrases in the email, which further supports the negative sentiment classification. Overall, the language used is straightforward and objective, but the context and the fact that a feature is not working as expected lead to a negative sentiment classification with high confidence."
+  },
+  {
+    "email_id":3,
+    "subject":"Email stuck in pending",
+    "sentiment":"neutral",
+    "confidence":0.7,
+    "reasoning":"The customer's tone is primarily informational, as they are reporting an issue with an email being stuck in pending. The phrase 'Not sure what's happening' indicates a sense of uncertainty rather than frustration or anger. There are no strong emotional indicators or urgency markers that would suggest a negative sentiment. However, the fact that the customer is reporting an issue might imply a slight leaning towards a negative sentiment, but it's not explicit enough to classify the sentiment as negative. The word choice is neutral, and the context of the issue is presented in a straightforward manner."
+  },
+  {
+    "email_id":4,
+    "subject":"Automation creating duplicate tasks",
+    "sentiment":"negative",
+    "confidence":0.8,
+    "reasoning":"The customer reports a specific issue with the automation engine creating duplicate tasks, which indicates a problem that is causing them inconvenience. The tone is straightforward and factual, but the word choice, such as 'creating 2 tasks for every email', implies a sense of frustration and inefficiency. The phrase 'This started after we edited our workflow' suggests that the customer has taken steps to try and resolve or modify their workflow, but the issue persists, which may contribute to their negative sentiment. There are no urgency markers or emotional indicators, but the context of the issue and the customer's report of a specific problem suggests a negative sentiment."
+  },
+  {
+    "email_id":5,
+    "subject":"Tags missing",
+    "sentiment":"negative",
+    "confidence":0.8,
+    "reasoning":"The customer's tone is direct and states a problem ('Many of our tags are not appearing for new emails'), indicating a sense of frustration or disappointment. The phrase 'Looks like the tagging model is not working for us' further emphasizes the issue, suggesting that the customer's expectations are not being met. The word choice is straightforward and lacks any positive or appreciative language, which supports the negative sentiment classification. There are no urgency markers like 'urgent' or 'immediately', but the context implies that the issue is significant enough for the customer to report it. Overall, the language used points towards a negative sentiment due to the reported problem and its impact on the customer's experience."
+  },
+  {
+    "email_id":6,
+    "subject":"Billing query",
+    "sentiment":"negative",
+    "confidence":0.8,
+    "reasoning":"The customer explicitly states they were 'charged incorrectly', which indicates a problem with their billing. The tone is direct and to the point, with no positive language or expressions of gratitude. The word 'incorrectly' has a negative connotation, implying a mistake was made. The urgency marker 'this month' suggests the issue is current and needs attention. While the language is not aggressive, the context and word choice clearly indicate the customer is unhappy with their billing situation."
+  },
+  {
+    "email_id":7,
+    "subject":"CSAT not visible",
+    "sentiment":"neutral",
+    "confidence":0.8,
+    "reasoning":"The customer's tone is inquiring and direct, with no clear emotional indicators of frustration, anger, or disappointment. The use of the phrase 'disappeared from our dashboard' is a factual statement, and 'Is there an outage?' is a straightforward question. The word choice does not convey a sense of urgency or panic, but rather a need for information. The context of the issue is a technical inquiry, which further supports the neutral sentiment classification. The only potential indicator of slight concern is the fact that the CSAT scores are not visible, but the customer's approach is still matter-of-fact and not confrontational."
+  },
+  {
+    "email_id":8,
+    "subject":"Delay in email loading",
+    "sentiment":"negative",
+    "confidence":0.9,
+    "reasoning":"The customer mentions a specific issue ('Delay in email loading') and quantifies its impact ('8\u201310 seconds'), which indicates a problem affecting their workflow. The phrase 'affecting our productivity' is a clear indicator of frustration, as it implies that the delay is causing inconvenience and hindering their ability to work efficiently. The tone is direct and objective, but the context and word choice ('affecting our productivity') convey a sense of disappointment and urgency, leading to a negative sentiment classification with high confidence."
+  },
+  {
+    "email_id":9,
+    "subject":"Need help setting up SLAs",
+    "sentiment":"neutral",
+    "confidence":0.9,
+    "reasoning":"The tone of the email is polite and inquiring, with the customer seeking guidance on setting up SLAs for different customer tiers. The word choice is straightforward and lacks emotional indicators, urgency markers, or language that would suggest frustration, anger, or disappointment. The phrase 'Can someone guide us?' is a clear request for assistance, but it does not convey a sense of urgency or emotional distress. Overall, the email is an informational query, and the sentiment is neutral."
+  },
+  {
+    "email_id":10,
+    "subject":"Mail merge failing",
+    "sentiment":"negative",
+    "confidence":0.8,
+    "reasoning":"The customer's tone is direct and to the point, stating a problem ('Mail merge is not sending emails') without any positive language or appreciation. The phrase 'even though the CSV is correct' implies a sense of frustration or disappointment, as the customer has likely checked the CSV and expects the mail merge to work. There are no urgency markers like 'urgent' or 'immediately', but the context of the issue (a feature not working as expected) and the straightforward reporting of the problem suggest a negative sentiment. The confidence level is high (0.8) due to the clear problem statement and the implied frustration, but not extremely high (1.0) because the language is not aggressively negative or emotional."
+  }
+]

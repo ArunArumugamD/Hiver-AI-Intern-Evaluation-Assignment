@@ -22,8 +22,8 @@ Instructions:
    - Low (0.0-0.49): Mixed signals or unclear
 
 Return JSON:
-{
+{{
     "sentiment": "positive/negative/neutral",
     "confidence": 0.0-1.0,
     "reasoning": "detailed explanation referencing specific words/phrases"
-}
+}}

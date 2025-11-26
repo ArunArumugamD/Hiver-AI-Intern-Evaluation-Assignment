@@ -1,0 +1,72 @@
+[
+  {
+    "email_id":1,
+    "subject":"Unable to access shared mailbox",
+    "sentiment":"neutral",
+    "confidence":0.8,
+    "reasoning":"The customer is reporting an issue, but the tone is polite and matter-of-fact, without expressing frustration, anger, or dissatisfaction, which are typical characteristics of negative sentiment. The language used is also neutral, focusing on the problem and the request for assistance, rather than making a positive or negative comment."
+  },
+  {
+    "email_id":2,
+    "subject":"Rules not working",
+    "sentiment":"negative",
+    "confidence":0.8,
+    "reasoning":"The customer is reporting an issue with a feature (rules not working) that is causing inconvenience, indicating a negative experience with the product."
+  },
+  {
+    "email_id":3,
+    "subject":"Email stuck in pending",
+    "sentiment":"neutral",
+    "confidence":0.8,
+    "reasoning":"The customer is reporting an issue, but their tone is matter-of-fact and inquiring, without expressing frustration, anger, or dissatisfaction, which are typical characteristics of negative sentiment. The language used is also neutral, without any positive or enthusiastic tone, which is why it's not classified as positive."
+  },
+  {
+    "email_id":4,
+    "subject":"Automation creating duplicate tasks",
+    "sentiment":"negative",
+    "confidence":0.8,
+    "reasoning":"The customer is reporting a problem with the automation engine, specifically that it is creating duplicate tasks, which indicates a issue or frustration with the product."
+  },
+  {
+    "email_id":5,
+    "subject":"Tags missing",
+    "sentiment":"negative",
+    "confidence":0.8,
+    "reasoning":"The customer is reporting an issue with the tagging model not working, which indicates a problem with the product or service. The tone is direct and objective, but the content of the message expresses dissatisfaction, leading to a negative sentiment classification."
+  },
+  {
+    "email_id":6,
+    "subject":"Billing query",
+    "sentiment":"negative",
+    "confidence":0.8,
+    "reasoning":"The customer states they were 'charged incorrectly', which indicates a problem with their billing, and requests a 'corrected invoice', implying dissatisfaction with the current state of their account."
+  },
+  {
+    "email_id":7,
+    "subject":"CSAT not visible",
+    "sentiment":"neutral",
+    "confidence":0.8,
+    "reasoning":"The customer is reporting an issue with their dashboard, but the tone is informative and inquiring, without expressing frustration, anger, or dissatisfaction, which are typical characteristics of negative sentiment. The language used is straightforward and neutral, aiming to seek assistance rather than complain."
+  },
+  {
+    "email_id":8,
+    "subject":"Delay in email loading",
+    "sentiment":"negative",
+    "confidence":0.9,
+    "reasoning":"The customer is reporting a delay in email loading, which is affecting their productivity, indicating a problem that is causing frustration or inconvenience."
+  },
+  {
+    "email_id":9,
+    "subject":"Need help setting up SLAs",
+    "sentiment":"neutral",
+    "confidence":0.8,
+    "reasoning":"The customer is seeking help and guidance, which is a neutral request. There is no emotional language or tone that suggests a positive or negative sentiment, such as frustration, appreciation, or excitement."
+  },
+  {
+    "email_id":10,
+    "subject":"Mail merge failing",
+    "sentiment":"negative",
+    "confidence":0.8,
+    "reasoning":"The customer is reporting a problem with the mail merge feature, stating that it's not working as expected, which indicates a negative experience with the product."
+  }
+]
