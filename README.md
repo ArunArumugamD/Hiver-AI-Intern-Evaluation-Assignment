@@ -16,7 +16,7 @@ Hiver Project/
 │   ├── sentiment_analysis.ipynb
 │   ├── prompt_v1.txt
 │   ├── prompt_v2.txt
-│   └── evaluation_report.md
+│   └── README.md
 ├── part_c_mini_rag/
 │   ├── rag_system.ipynb
 │   └── README.md
