@@ -1,0 +1,13 @@
+Analyze the sentiment of this customer support email.
+
+Subject: {subject}
+Body: {body}
+
+Classify the sentiment as: positive, negative, or neutral.
+
+Provide your response in JSON format:
+{
+    "sentiment": "positive/negative/neutral",
+    "confidence": 0.0-1.0,
+    "reasoning": "brief explanation of why you chose this sentiment"
+}
