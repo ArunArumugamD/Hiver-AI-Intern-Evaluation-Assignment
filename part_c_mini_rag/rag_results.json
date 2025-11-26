@@ -1,0 +1,46 @@
+{
+  "query1": {
+    "query": "How do I configure automations in Hiver?",
+    "retrieved_articles": [
+      {
+        "title": "How to Configure Automations in Hiver",
+        "similarity": 0.7185701727867126
+      },
+      {
+        "title": "Setting Up SLA (Service Level Agreements)",
+        "similarity": 0.5065847635269165
+      },
+      {
+        "title": "Email Tagging Best Practices",
+        "similarity": 0.4824640452861786
+      }
+    ],
+    "answer": "To configure automations in Hiver, follow these steps: Go to Settings > Automations, click 'Create New Rule', set your trigger conditions, define actions, test the automation with sample emails, and save and activate. Common automation uses include auto-assigning emails based on keywords, auto-tagging by department, setting SLA timers, and sending auto-responses.",
+    "confidence": 1.0,
+    "sources": [
+      "Article 1: How to Configure Automations in Hiver"
+    ]
+  },
+  "query2": {
+    "query": "Why is CSAT not appearing?",
+    "retrieved_articles": [
+      {
+        "title": "CSAT Survey Setup and Troubleshooting",
+        "similarity": 0.5255240797996521
+      },
+      {
+        "title": "Analytics and Reporting in Hiver",
+        "similarity": 0.3869193494319916
+      },
+      {
+        "title": "Setting Up SLA (Service Level Agreements)",
+        "similarity": 0.38038888573646545
+      }
+    ],
+    "answer": "To troubleshoot why CSAT is not appearing, check if CSAT is enabled in settings (Analytics > CSAT Settings), verify that the email status is 'Closed', ensure the customer's email is not in the blocklist, check if the survey delay timer has elapsed, and confirm there are no shared mailbox permissions issues. Refer to the CSAT settings to verify all configurations.",
+    "confidence": 0.9,
+    "sources": [
+      "CSAT Survey Setup and Troubleshooting"
+    ]
+  }
+}
